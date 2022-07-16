@@ -13,3 +13,5 @@ while True:
 print(products)
 # product[0][0] 指的是第一個清單的第一個東西
 # prduct = [[[0][1]], [[0][1]]]
+for p in products:
+	print(p[0], '的價格是', p[1])
